@@ -1,0 +1,126 @@
+a {
+    text-decoration: none;
+}
+
+a.picture {
+    display: inline-block;
+}
+
+p {
+    color: white;
+    text-shadow: 1px 0 0 black, -1px 0 0 black, 0 1px 0 black, 0 -1px 0 black;
+}
+
+p.medium {
+    font-size: 30px
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  height: 150px;
+  border-radius: 50%;
+}
+
+@font-face {
+    font-family: "Tahoma8px";
+    src: url("https://raw.githubusercontent.com/bui1d-failed/luau-lib/refs/heads/main/fonts/fs-tahoma-8px.ttf");
+}
+
+body {
+  width: 600px;
+  height: 300px;
+  margin: 0 auto;
+  padding: 0 20px 20px 20px;
+  text-align: center;
+  font-family: "Tahoma8px", sans-serif;
+}
+
+body.profile {
+    border-radius: 16px;
+    width:  600px;
+    height: 330px;
+}
+
+h1 {
+  margin: 0;
+  padding: 0px 0;
+  color: white;
+  text-shadow: 1px 0 0 black, -1px 0 0 black, 0 1px 0 black, 0 -1px 0 black;
+
+}
+
+html {
+    background-color: #000000;
+    background-image: url("../assets/images/background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+html::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+
+.button-outline {
+    height: 23px;
+    padding: 1px;
+    background-color: rgba(107, 183, 175, 0.9);
+}
+
+.button-inline {
+    height: 21px;
+    padding: 1px;
+    background-color: rgba(238, 133, 161, 0.3);
+}
+
+.button-background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1px 8px;
+    background-image: linear-gradient(rgba(107, 183, 175, 0.5), rgba(238, 133, 161, 0.5));
+}
+
+.button-background:hover {
+    background-image: none;
+    background-color: rgba(107, 183, 175, 0.4);
+}
+
+.button {
+    display: inline-block;
+    padding: 1px 8px;
+    color: white;
+    font-family: "Tahoma8px", sans-serif;
+    font-size: 30px;
+    text-decoration: none;
+    -webkit-font-smoothing: none;
+    text-shadow: 1px 0 0 black, -1px 0 0 black, 0 1px 0 black, 0 -1px 0 black;
+    background-image: linear-gradient(rgba(107, 183, 175, 0.5), rgba(238, 133, 161, 0.5));
+
+    outline: 2px solid rgba(107, 183, 175, 0.5);
+}
+
+.button:hover {
+    background-image: none;
+    background-color: rgba(107, 183, 175, 0.4);
+}
+
+.holder {
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+    margin-top: 10px;
+}
