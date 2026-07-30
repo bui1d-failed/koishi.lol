@@ -24,7 +24,7 @@ img {
 
 @font-face {
     font-family: "Tahoma8px";
-    src: url("https://github.com/bui1d-failed/koishi.lol/raw/refs/heads/main/assets/fonts/WINDOWS-XP-TAHOMA.TTF");
+    src: url("https://koishi.lol/assets/fonts/tahoma.ttf");
 }
 
 body {
